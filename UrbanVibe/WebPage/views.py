@@ -23,3 +23,6 @@ def product_detail(request):
 
 def shoppingcart(request):
     return render(request, 'WebPage/shoppingcart.html')
+
+def invoice(request):
+    return render(request, 'WebPage/invoice.html')
